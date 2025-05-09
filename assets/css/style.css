@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://wallpapers.com/images/featured/pato-patinhas-yk02hkz487kjcnmt.jpg)
+}
+form fieldset{
+    background-color: #fc2f00;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    gap: 15px;
+}
+form fieldset input[type="submit"]{
+    width: 15vw;
+    height: 10vh;
+    margin: auto;
+    background-color: #daa520;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form fieldset input[type="submit"]:hover{
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/raining-money-26.gif);
+    cursor: not-allowed;
+    color:white
+}
+@font-face{
+    font-family: fonte;
+    src: url(../fontes/Howdy\ Koala.otf);
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: fonte;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:red;
+    color: yellow;
+    background-color:black
+}
+h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
